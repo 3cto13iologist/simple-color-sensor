@@ -14,9 +14,11 @@ var
 	, idle 			// boolean: is the sensor taking a reading? YES? NO!?
 ;
 
-/**
- * Call getColor() to start scanning for a color, use your
- * imagination to come up with a trigger mechanism!
+/** ~~~~~~~ ~~~ ~
+ * Put all of the things together to try and detect the color
+ * of nearby objects (your mileage may vary).
+ * You can call getColor() to start the detection process.
+ * Use your imagination to come up with a fun trigger mechanism!
  */
 
 board = new five.Board();

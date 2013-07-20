@@ -11,6 +11,12 @@ var
 	, red
 ;
 
+/** ~~~~~~~ ~~~ ~
+ * Fade through the spectrum
+ * with an RGB LED using the
+ * magic of PWM!
+ */
+
 board = new five.Board();
 
 board.on('ready', function() {

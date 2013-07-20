@@ -1,17 +1,17 @@
 var
 	five = require('johnny-five')
-	, chuck
 	, board
 	, photo
-	, green
-	, blue
-	, red
 ;
 
 board = new five.Board();
 
-board.on('ready', function() {
+/** ~~~~~~~ ~~~ ~
+ * Initialize a photoresistor as a sensor
+ * and simply output its readings to the console
+ */
 
+board.on('ready', function() {
 
 	photo = new five.Sensor({
 
