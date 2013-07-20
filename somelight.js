@@ -2,7 +2,6 @@ var
 	five = require('johnny-five')
 	, leds
 	, board
-	, photo
 	, state = 0
 	, duty = 255
 	, maxHue
